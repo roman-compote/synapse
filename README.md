@@ -14,35 +14,35 @@ Welcome to your comprehensive AI and LLM engineering knowledge base. This vault 
 
 This knowledge base uses **PARA Method + Zettelkasten** principles:
 
-- **[[0-Inbox/README|0-Inbox]]** - Quick capture landing zone (process weekly)
-  - [[0-Inbox/web-clips/|web-clips/]] - Articles and documentation
-  - [[0-Inbox/bookmarks/|bookmarks/]] - Links to process
-  - [[0-Inbox/videos/|videos/]] - Videos and talks
-  - [[0-Inbox/quick-notes/|quick-notes/]] - Fleeting ideas
-- **[[1-Projects/README|1-Projects]]** - Active, time-bound work with deadlines
-- **[[2-Areas/README|2-Areas]]** - Ongoing responsibilities and interests
-  - [[2-Areas/AI-Learning/AI-Learning|AI/LLM Learning]] - Continuous skill development
-- **[[3-Resources/README|3-Resources]]** - Reference material and knowledge repository
-  - [[3-Resources/models/README|Models]], [[3-Resources/tools/README|Tools]], [[3-Resources/techniques/README|Techniques]], [[3-Resources/exercises/README|Exercises]]
-  - [[3-Resources/workshops/|Workshops]], [[3-Resources/llm-engineering/|LLM Engineering]]
-- **[[4-Archives/README|4-Archives]]** - Completed or inactive content
-- **[[5-Meta/README|5-Meta]]** - Templates, MOCs (Maps of Content), and vault management
-  - [[5-Meta/Templates/README|Templates]] - Note templates for consistency
-  - [[5-Meta/MOCs/README|MOCs]] - Navigation hubs for topics
-  - [[5-Meta/Guidelines/Processing-Workflow|Processing Workflow]] - Capture → Process → Link
+- **[0-Inbox](0-Inbox/README.md)** - Quick capture landing zone (process weekly)
+  - [web-clips/](0-Inbox/web-clips/) - Articles and documentation
+  - [bookmarks/](0-Inbox/bookmarks/) - Links to process
+  - [videos/](0-Inbox/videos/) - Videos and talks
+  - [quick-notes/](0-Inbox/quick-notes/) - Fleeting ideas
+- **[1-Projects](1-Projects/README.md)** - Active, time-bound work with deadlines
+- **[2-Areas](2-Areas/README.md)** - Ongoing responsibilities and interests
+  - [AI/LLM Learning](2-Areas/AI-Learning/AI-Learning.md) - Continuous skill development
+- **[3-Resources](3-Resources/README.md)** - Reference material and knowledge repository
+  - [Models](3-Resources/models/README.md), [Tools](3-Resources/tools/README.md), [Techniques](3-Resources/techniques/README.md), [Exercises](3-Resources/exercises/README.md)
+  - [Workshops](3-Resources/workshops/), [LLM Engineering](3-Resources/llm-engineering/)
+- **[4-Archives](4-Archives/README.md)** - Completed or inactive content
+- **[5-Meta](5-Meta/README.md)** - Templates, MOCs (Maps of Content), and vault management
+  - [Templates](5-Meta/Templates/README.md) - Note templates for consistency
+  - [MOCs](5-Meta/MOCs/README.md) - Navigation hubs for topics
+  - [Processing Workflow](5-Meta/Guidelines/Processing-Workflow.md) - Capture → Process → Link
 
 ---
 
 ## Quick Capture
 
 **Add Content:**
-- **Browser:** Use Obsidian Web Clipper extension → Save to [[0-Inbox/]]
-- **Quick note:** Create from template → Save to [[0-Inbox/quick-notes/]]
-- **Bookmark:** Use [[5-Meta/Templates/bookmark-template|bookmark template]] → Save to [[0-Inbox/bookmarks/]]
-- **Video:** Use [[5-Meta/Templates/video-template|video template]] → Save to [[0-Inbox/videos/]]
+- **Browser:** Use Obsidian Web Clipper extension → Save to [0-Inbox/](0-Inbox/)
+- **Quick note:** Create from template → Save to [0-Inbox/quick-notes/](0-Inbox/quick-notes/)
+- **Bookmark:** Use [bookmark template](5-Meta/Templates/bookmark-template.md) → Save to [0-Inbox/bookmarks/](0-Inbox/bookmarks/)
+- **Video:** Use [video template](5-Meta/Templates/video-template.md) → Save to [0-Inbox/videos/](0-Inbox/videos/)
 
 **Process Inbox:**
-- **Weekly review:** Every Friday/Sunday (see [[5-Meta/Guidelines/Processing-Workflow|Processing Workflow]])
+- **Weekly review:** Every Friday/Sunday (see [Processing Workflow](5-Meta/Guidelines/Processing-Workflow.md))
 - **Goal:** Inbox empty or <10 items
 
 ---
@@ -52,54 +52,54 @@ This knowledge base uses **PARA Method + Zettelkasten** principles:
 ### 🎓 Workshops
 
 Start here for structured learning paths:
-- **Workshop Materials** - [[3-Resources/workshops/|Workshops]]
+- **Workshop Materials** - [Workshops](3-Resources/workshops/)
   - Workshop 1: LLM Basics (Previous workshop notes)
-  - Workshop 2: [[3-Resources/workshops/Coding Assistants Workshop - Plan|Coding Assistants Workshop]]
-  - Workshop 3: [[3-Resources/workshops/building-coding-agents-workshop|Building Coding Agents Workshop]] ⭐ NEW - Hands-on agent development
+  - Workshop 2: [Coding Assistants Workshop](3-Resources/workshops/Coding%20Assistants%20Workshop%20-%20Plan.md)
+  - Workshop 3: [Building Coding Agents Workshop](3-Resources/workshops/building-coding-agents-workshop.md) ⭐ NEW - Hands-on agent development
 
 ### 📚 Core Concepts
 
 Fundamental knowledge organized by topic:
-- **[[3-Resources/llm-engineering/LLM engineering|LLM Engineering Overview]]** - Models, tools, and techniques
-- **[[3-Resources/llm-engineering/models|Models]]** - Understanding different LLM types
-- **[[3-Resources/llm-engineering/tools|Tools]]** - Frameworks and platforms
-- **[[3-Resources/llm-engineering/techniques|Techniques]]** - Prompting, RAG, agents
+- **[LLM Engineering Overview](3-Resources/llm-engineering/LLM%20engineering.md)** - Models, tools, and techniques
+- **[Models](3-Resources/llm-engineering/models.md)** - Understanding different LLM types
+- **[Tools](3-Resources/llm-engineering/tools.md)** - Frameworks and platforms
+- **[Techniques](3-Resources/llm-engineering/techniques.md)** - Prompting, RAG, agents
 
 ### 🤖 Models
 
 AI model documentation and comparisons:
 
 **Frontier Models** (Latest, cutting-edge)
-- [[3-Resources/models/frontier/Claude 4 Sonnet|Claude 4 Sonnet]] - Hybrid reasoning, 1M context, coding excellence
-- [[3-Resources/models/frontier/Claude 4 Opus|Claude 4 Opus]] - Maximum capability
-- [[3-Resources/models/frontier/GPT-o1|GPT-o1]] & [[3-Resources/models/frontier/GPT-o3|GPT-o3]] - OpenAI reasoning models
-- [[3-Resources/models/frontier/DeepSeek-R1|DeepSeek-R1]] - Open reasoning model
+- [Claude 4 Sonnet](3-Resources/models/frontier/Claude%204%20Sonnet.md) - Hybrid reasoning, 1M context, coding excellence
+- [Claude 4 Opus](3-Resources/models/frontier/Claude%204%20Opus.md) - Maximum capability
+- [GPT-o1](3-Resources/models/frontier/GPT-o1.md) & [GPT-o3](3-Resources/models/frontier/GPT-o3.md) - OpenAI reasoning models
+- [DeepSeek-R1](3-Resources/models/frontier/DeepSeek-R1.md) - Open reasoning model
 
 **Production Models** (Stable, reliable)
-- [[3-Resources/models/production/Claude 3.5 Sonnet|Claude 3.5 Sonnet]]
-- [[3-Resources/models/production/GPT-4o|GPT-4o]]
-- [[3-Resources/models/production/Gemini Pro|Gemini Pro]]
+- [Claude 3.5 Sonnet](3-Resources/models/production/Claude%203.5%20Sonnet.md)
+- [GPT-4o](3-Resources/models/production/GPT-4o.md)
+- [Gemini Pro](3-Resources/models/production/Gemini%20Pro.md)
 
 **Open Source Models**
-- [[3-Resources/models/open-source/Llama 3|Llama 3]]
-- [[3-Resources/models/open-source/Mistral 7B|Mistral 7B]]
-- [[3-Resources/models/open-source/Qwen3|Qwen3]]
-- [[3-Resources/models/open-source/Code Llama|Code Llama]]
+- [Llama 3](3-Resources/models/open-source/Llama%203.md)
+- [Mistral 7B](3-Resources/models/open-source/Mistral%207B.md)
+- [Qwen3](3-Resources/models/open-source/Qwen3.md)
+- [Code Llama](3-Resources/models/open-source/Code%20Llama.md)
 
 **Deployment Tools**
-- [[3-Resources/models/local deployment tools/Ollama|Ollama]]
-- [[3-Resources/models/local deployment tools/LM Studio|LM Studio]]
-- [[3-Resources/models/local deployment tools/Open WebUI|Open WebUI]]
+- [Ollama](3-Resources/models/local%20deployment%20tools/Ollama.md)
+- [LM Studio](3-Resources/models/local%20deployment%20tools/LM%20Studio.md)
+- [Open WebUI](3-Resources/models/local%20deployment%20tools/Open%20WebUI.md)
 
 ### 🛠️ Tools & Frameworks
 
 #### Coding Assistants
-Full comparison: [[3-Resources/tools/coding-assistants/README|Coding Assistants Overview]]
+Full comparison: [Coding Assistants Overview](3-Resources/tools/coding-assistants/README.md)
 
 **Agentic Systems:**
-- [[3-Resources/tools/coding-assistants/Claude Code|Claude Code]] - Multi-step autonomous coding
+- [Claude Code](3-Resources/tools/coding-assistants/Claude%20Code.md) - Multi-step autonomous coding
 - Devin - Full-stack AI developer
-- [[3-Resources/tools/coding-assistants/Amp|Amp]] ⭐ NEW - Open source, transparent architecture (~400 lines)
+- [Amp](3-Resources/tools/coding-assistants/Amp.md) ⭐ NEW - Open source, transparent architecture (~400 lines)
 
 **Copilot-Style:**
 - GitHub Copilot - Line-level suggestions
@@ -108,46 +108,46 @@ Full comparison: [[3-Resources/tools/coding-assistants/README|Coding Assistants 
 **Hybrid:**
 - Cursor - Autocomplete + agent mode
 - Windsurf - Fast agentic coding
-- [[3-Resources/tools/coding-assistants/Aider|Aider]] - Terminal-based AI pair programming
+- Aider - Terminal-based AI pair programming
 
 #### Agent Frameworks
-- [[3-Resources/tools/frameworks/LangChain|LangChain]] - Comprehensive LLM framework
+- [LangChain](3-Resources/tools/frameworks/LangChain.md) - Comprehensive LLM framework
 - LangGraph - Stateful multi-agent graphs
 - AutoGen (Microsoft) - Multi-agent conversations
 - CrewAI - Role-based agent teams
-- [[3-Resources/tools/frameworks/Fabric|Fabric]] - CLI prompt management (300+ patterns)
+- [Fabric](3-Resources/tools/frameworks/Fabric.md) - CLI prompt management (300+ patterns)
 
 #### Protocols & Standards
-- [[3-Resources/tools/protocols/MCP|Model Context Protocol (MCP)]] - Standardized AI-tool integration
+- [Model Context Protocol (MCP)](3-Resources/tools/protocols/MCP.md) - Standardized AI-tool integration
 
 ### 🎯 Techniques
 
 Advanced AI engineering patterns:
-- **[[3-Resources/techniques/README|Techniques Overview]]** - Complete guide to AI/LLM techniques
-- **[[3-Resources/techniques/prompting/README|Prompting]]** - Effective prompt engineering techniques
-  - [[3-Resources/techniques/prompting/basics|Prompting Basics]]
-  - [[3-Resources/techniques/prompting/system-prompts|System Prompts]]
-- **[[3-Resources/techniques/agents/agents - agentisation|Agents & Agentisation]]** - Autonomous AI systems overview
-- **[[3-Resources/techniques/agents/building-coding-agents|Building Coding Agents]]** ⭐ NEW - Step-by-step guide to creating agents from scratch
-- **[[3-Resources/techniques/context-engineering/context-engineering-coding-agents|Context Engineering]]** - Advanced context window management for coding agents
-- **[[3-Resources/techniques/RAG/RAG|RAG (Retrieval-Augmented Generation)]]** - External knowledge integration
+- **[Techniques Overview](3-Resources/techniques/README.md)** - Complete guide to AI/LLM techniques
+- **[Prompting](3-Resources/techniques/prompting/README.md)** - Effective prompt engineering techniques
+  - [Prompting Basics](3-Resources/techniques/prompting/basics.md)
+  - [System Prompts](3-Resources/techniques/prompting/system-prompts.md)
+- **[Agents & Agentisation](3-Resources/techniques/agents/agents%20-%20agentisation.md)** - Autonomous AI systems overview
+- **[Building Coding Agents](3-Resources/techniques/agents/building-coding-agents.md)** ⭐ NEW - Step-by-step guide to creating agents from scratch
+- **[Context Engineering](3-Resources/techniques/context-engineering/context-engineering-coding-agents.md)** - Advanced context window management for coding agents
+- **[RAG (Retrieval-Augmented Generation)](3-Resources/techniques/RAG/RAG.md)** - External knowledge integration
 
 ### 💻 Practical Exercises
 
 Hands-on projects and implementations:
 
 **Core LLM Engineering:**
-1. [[3-Resources/exercises/LLM Engineering - Basics|Basics]] - Multi-provider integration, web summarization
-2. [[3-Resources/exercises/LLM Engineering - Gradio|Gradio]] - Conversational AI interfaces
-3. [[3-Resources/exercises/LLM Engineering - Tools|Tools]] - Multi-modal airline assistant
-4. [[3-Resources/exercises/LLM Engineering - Code Generation|Code Generation]] - Python to C++ optimization
+1. [Basics](3-Resources/exercises/LLM%20Engineering%20-%20Basics.md) - Multi-provider integration, web summarization
+2. [Gradio](3-Resources/exercises/LLM%20Engineering%20-%20Gradio.md) - Conversational AI interfaces
+3. [Tools](3-Resources/exercises/LLM%20Engineering%20-%20Tools.md) - Multi-modal airline assistant
+4. [Code Generation](3-Resources/exercises/LLM%20Engineering%20-%20Code%20Generation.md) - Python to C++ optimization
 
 **Advanced Topics:**
-5. [[3-Resources/exercises/LLM Engineering - RAG|RAG]] - Enterprise knowledge base system
+5. [RAG](3-Resources/exercises/LLM%20Engineering%20-%20RAG.md) - Enterprise knowledge base system
 
 **Agent Frameworks:**
-6. [[3-Resources/exercises/Agents - OpenAI SDK|OpenAI SDK Agents]] - Multi-agent research system
-7. [[3-Resources/exercises/Agents - LangGraph|LangGraph]] - State-based agent architecture
+6. [OpenAI SDK Agents](3-Resources/exercises/Agents%20-%20OpenAI%20SDK.md) - Multi-agent research system
+7. [LangGraph](3-Resources/exercises/Agents%20-%20LangGraph.md) - State-based agent architecture
 
 ---
 
@@ -160,20 +160,18 @@ Hands-on projects and implementations:
 - 🌐 OpenAI and Google DeepMind adopt Model Context Protocol
 - ⚡ Cursor vs Windsurf competition heating up
 
-See [[3-Resources/resources/news/2025-11-updates|November 2025 News]] for details.
-
 ---
 
 ## Maps of Content (MOCs)
 
 High-level navigation hubs for exploring related topics:
 
-- **[[5-Meta/MOCs/AI-Models-MOC|AI Models MOC]]** - Complete model landscape (frontier, production, open source)
-- **[[5-Meta/MOCs/Coding-Assistants-MOC|Coding Assistants MOC]]** - Development tools and comparisons
-- **[[5-Meta/MOCs/Prompting-Techniques-MOC|Prompting Techniques MOC]]** - Prompt engineering patterns
-- **[[5-Meta/MOCs/Learning-Path-MOC|Learning Path MOC]]** - Structured learning progressions
+- **[AI Models MOC](5-Meta/MOCs/AI-Models-MOC.md)** - Complete model landscape (frontier, production, open source)
+- **[Coding Assistants MOC](5-Meta/MOCs/Coding-Assistants-MOC.md)** - Development tools and comparisons
+- **[Prompting Techniques MOC](5-Meta/MOCs/Prompting-Techniques-MOC.md)** - Prompt engineering patterns
+- **[Learning Path MOC](5-Meta/MOCs/Learning-Path-MOC.md)** - Structured learning progressions
 
-See [[5-Meta/MOCs/README|MOCs folder]] for all maps of content.
+See [MOCs folder](5-Meta/MOCs/README.md) for all maps of content.
 
 ---
 
@@ -263,43 +261,43 @@ graph TB
 ## Getting Started
 
 ### New to AI/LLMs?
-1. Start with [[3-Resources/llm-engineering/LLM engineering|LLM Engineering Overview]]
-2. Follow [[5-Meta/MOCs/Learning-Path-MOC|Learning Path MOC]]
-3. Complete [[3-Resources/exercises/LLM Engineering - Basics|Basics Exercise]]
-4. Explore [[3-Resources/models/production/Claude 3.5 Sonnet|production models]]
+1. Start with [LLM Engineering Overview](3-Resources/llm-engineering/LLM%20engineering.md)
+2. Follow [Learning Path MOC](5-Meta/MOCs/Learning-Path-MOC.md)
+3. Complete [Basics Exercise](3-Resources/exercises/LLM%20Engineering%20-%20Basics.md)
+4. Explore [production models](3-Resources/models/production/Claude%203.5%20Sonnet.md)
 
 ### New to This Vault?
-1. Read this README and [[5-Meta/README|Meta folder overview]]
-2. Set up [[0-Inbox/README|Inbox]] for capturing content
-3. Review [[5-Meta/Guidelines/Processing-Workflow|Processing Workflow]]
+1. Read this README and [Meta folder overview](5-Meta/README.md)
+2. Set up [Inbox](0-Inbox/README.md) for capturing content
+3. Review [Processing Workflow](5-Meta/Guidelines/Processing-Workflow.md)
 4. Install Obsidian Web Clipper for easy content capture
 
 ### Preparing for Workshop?
-1. Review [[3-Resources/workshops/Coding Assistants Workshop - Plan|Workshop Plan]]
+1. Review [Workshop Plan](3-Resources/workshops/Coding%20Assistants%20Workshop%20-%20Plan.md)
 2. Install Claude Code or chosen tool
 3. Complete setup exercises
-4. Create a [[1-Projects/README|project note]] to track your progress
+4. Create a [project note](1-Projects/README.md) to track your progress
 
 ### Building AI Applications?
-1. Review [[3-Resources/techniques/RAG/RAG|RAG]] or [[3-Resources/techniques/agents/agents - agentisation|Agents]]
-2. Explore [[3-Resources/exercises/LLM Engineering - RAG|RAG Exercise]]
-3. Try [[3-Resources/exercises/Agents - LangGraph|LangGraph Exercise]]
-4. Use [[5-Meta/Templates/project-template|project template]] to organize your work
+1. Review [RAG](3-Resources/techniques/RAG/RAG.md) or [Agents](3-Resources/techniques/agents/agents%20-%20agentisation.md)
+2. Explore [RAG Exercise](3-Resources/exercises/LLM%20Engineering%20-%20RAG.md)
+3. Try [LangGraph Exercise](3-Resources/exercises/Agents%20-%20LangGraph.md)
+4. Use [project template](5-Meta/Templates/project-template.md) to organize your work
 
 ### Want to Build Your Own Agent?
-1. Read [[3-Resources/techniques/agents/building-coding-agents|Building Coding Agents]]
-2. Complete [[3-Resources/workshops/building-coding-agents-workshop|Building Agents Workshop]]
-3. Study [[3-Resources/tools/coding-assistants/Amp|Amp]] architecture
+1. Read [Building Coding Agents](3-Resources/techniques/agents/building-coding-agents.md)
+2. Complete [Building Agents Workshop](3-Resources/workshops/building-coding-agents-workshop.md)
+3. Study [Amp](3-Resources/tools/coding-assistants/Amp.md) architecture
 
 ---
 
 ## Resources
 
 **Vault Documentation:**
-- [[5-Meta/README|Meta Folder]] - Templates, MOCs, guidelines
-- [[5-Meta/Guidelines/Knowledge-Base-Guidelines|Content Guidelines]] - Quality standards
-- [[5-Meta/Guidelines/Processing-Workflow|Processing Workflow]] - How to maintain the vault
-- [[CLAUDE|CLAUDE.md]] - Instructions for AI assistants
+- [Meta Folder](5-Meta/README.md) - Templates, MOCs, guidelines
+- [Content Guidelines](5-Meta/Guidelines/Knowledge-Base-Guidelines.md) - Quality standards
+- [Processing Workflow](5-Meta/Guidelines/Processing-Workflow.md) - How to maintain the vault
+- [CLAUDE.md](CLAUDE.md) - Instructions for AI assistants
 
 **Official Documentation:**
 - [Anthropic Claude Docs](https://docs.anthropic.com)
