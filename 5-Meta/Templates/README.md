@@ -77,6 +77,21 @@ Templates provide **consistent structure and quality** across all notes in the v
 
 ---
 
+#### [[5-Meta/Templates/course-template|course-template.md]]
+**Use for:** Online courses (Udemy, Coursera, Pluralsight, etc.)
+
+**Includes:**
+- Course metadata (platform, instructor, duration, URL)
+- Key learnings and concepts
+- Practical patterns and techniques
+- Tools and technologies covered
+- Personal assessment and recommendations
+- Action items for implementation
+
+**Note:** Focus on **what you learned**, not just course outline.
+
+---
+
 #### [[5-Meta/Templates/article-template|article-template.md]]
 **Use for:** Articles, blog posts, technical documentation
 
@@ -170,6 +185,7 @@ Common placeholders used in templates:
 | Ongoing learning | area-template | 2-Areas/ |
 | Web link to save | bookmark-template | 0-Inbox/bookmarks/ |
 | YouTube video | video-template | 0-Inbox/videos/ |
+| Online course | course-template | 3-Resources/courses/ |
 | Blog post | article-template | 0-Inbox/web-clips/ |
 | Quick idea | quick-note or none | 0-Inbox/quick-notes/ |
 | Concept definition | permanent-note-template | 3-Resources/ |

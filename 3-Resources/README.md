@@ -28,6 +28,7 @@ Resources is your **permanent knowledge library** - reference material, document
 ├── workshops/           # Workshop Materials
 ├── bookmarks/           # Web Resources (processed)
 ├── videos/              # Video Content (processed)
+├── courses/             # Online Courses (processed)
 ├── articles/            # Articles (processed)
 └── resources/           # Meta Resources & News
 ```
@@ -192,6 +193,27 @@ YouTube videos, conference talks, and lectures that have been processed.
 - Key takeaways with timestamps
 - Detailed notes
 - Action items
+
+---
+
+### Courses (`courses/`)
+
+Structured online courses that have been completed or are in progress.
+
+**Purpose:** Comprehensive notes from online courses (Udemy, Coursera, Pluralsight, etc.) representing substantial learning investments.
+
+**Template:** [[../5-Meta/Templates/course-template|course-template.md]]
+
+**Content Includes:**
+- Course metadata (platform, instructor, duration, URL)
+- Key learnings and concepts
+- Practical patterns and techniques
+- Tools and technologies covered
+- Personal assessment and recommendations
+- Links to related vault concepts
+- Action items for implementation
+
+**Note:** Unlike videos (shorter content), courses represent multi-hour structured curricula. Focus on **what you learned**, not just what was taught.
 
 ---
 
