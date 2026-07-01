@@ -96,6 +96,17 @@ Create a MOC when:
 
 ---
 
+### [[5-Meta/MOCs/AI-Assisted-Architecture-MOC|AI-Assisted Architecture MOC]]
+**Scope:** Evaluating and improving software architecture with AI assistance
+**Organizes:**
+- Adversarial multi-stream evaluation pipeline
+- Domain-Driven Design evaluation method
+- DDD smells catalog and reusable modeling patterns
+- Reference-model anchoring
+- AI-assisted test automation
+
+---
+
 ## MOC Structure
 
 ### Recommended Format

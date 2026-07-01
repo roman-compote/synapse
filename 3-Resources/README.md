@@ -23,6 +23,7 @@ Resources is your **permanent knowledge library** - reference material, document
 ├── models/              # AI/LLM Models
 ├── tools/               # AI Tools & Frameworks
 ├── techniques/          # AI Engineering Techniques
+├── domain-driven-design/ # DDD evaluation methodology & patterns
 ├── exercises/           # Hands-on Coding Exercises
 ├── llm-engineering/     # Core LLM Concepts
 ├── workshops/           # Workshop Materials
@@ -95,6 +96,23 @@ AI engineering methods, patterns, and best practices.
 **Navigation:**
 - [[../5-Meta/MOCs/Prompting-Techniques-MOC|Prompting Techniques MOC]]
 - `techniques/README.md` - Techniques overview
+
+---
+
+### Domain-Driven Design (`domain-driven-design/`)
+
+Framework-grounded methodology for evaluating and improving DDD artifacts (bounded contexts, context maps, domain models) with AI assistance. Generalized from a real AI-assisted architecture evaluation; domain-neutral.
+
+**Structure:**
+- `ddd-evaluation-method.md` - Strategic + tactical rubric, phased review pipeline
+- `ddd-smells-catalog.md` - 17 strategic/tactical anti-patterns with fixes
+- `reference-model-anchoring.md` - Adopt/align/mine external standards
+- `modeling-patterns.md` - Case-type profiles + gates; layered document decomposition
+
+**Navigation:**
+- [[../5-Meta/MOCs/AI-Assisted-Architecture-MOC|AI-Assisted Architecture MOC]]
+- [[domain-driven-design/README|DDD Cluster Overview]]
+- Companion AI workflow: [[techniques/agents/adversarial-multi-stream-evaluation|Adversarial Multi-Stream Evaluation]]
 
 **Content Types:**
 - Technique explanations

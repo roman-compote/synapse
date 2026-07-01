@@ -64,6 +64,27 @@ Design autonomous AI systems that can plan, execute, and adapt to achieve comple
 - Planning and execution loops
 - State management
 
+**Applied workflow:**
+- [[agents/adversarial-multi-stream-evaluation|Adversarial Multi-Stream Evaluation]] - Multi-agent pattern for high-confidence, semantically valid evaluation of large artifacts (structural pass + parallel semantic streams + refute-by-default verification)
+
+### [[ai-assisted-test-automation|AI-Assisted Test Automation]]
+Use LLMs to author and maintain automated tests without giving up determinism or reviewability.
+
+**Key Topics:**
+- Vibe-coding test generation with a step catalog + stable selectors
+- 6-criteria platform-fit matrix
+- DSL → AST → generator pipeline with AI draft-mode behind a human gate
+
+### [[../domain-driven-design/README|Domain-Driven Design Evaluation]]
+Framework-grounded methodology for evaluating and improving DDD artifacts — bounded contexts, context maps, domain models — with AI assistance.
+
+**Key Topics:**
+- [[../domain-driven-design/ddd-evaluation-method|DDD Evaluation Method]] - Strategic + tactical rubric, phased pipeline
+- [[../domain-driven-design/ddd-smells-catalog|DDD Smells Catalog]] - 17 anti-patterns with fixes
+- [[../domain-driven-design/reference-model-anchoring|Reference-Model Anchoring]] - Adopt/align/mine external standards
+- [[../domain-driven-design/modeling-patterns|Reusable Modeling Patterns]]
+- Navigation: [[../../5-Meta/MOCs/AI-Assisted-Architecture-MOC|AI-Assisted Architecture MOC]]
+
 ---
 
 ## 🎯 Technique Selection Guide
