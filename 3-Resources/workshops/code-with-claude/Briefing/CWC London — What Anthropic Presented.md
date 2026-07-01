@@ -58,7 +58,7 @@ The conference ran eight hands-on stations. This workshop distils **the four Rom
 | Agent Battle | Config levers (prompt/skills/MCP/model) | **[[Agent Battle|Lab 2]]** |
 | Compose Multi-Agent Systems (StockPilot) | tool → skill → subagent | **[[Agent Decomposition|Lab 3]]** |
 | Eval-Driven Agent Development | Two-layer grading | **[[Eval-Driven Agent Development|Lab 4]]** |
-| Agents That Remember | Memory stores + Dreaming | Theory: [[Memory and Dreaming]] |
+| Agents That Remember | Memory stores + Dreaming | **[[Agents That Remember|Lab 5]]** (+ theory: [[Memory and Dreaming]]) |
 | Long-Running Agents | Harness patterns | **[[Bonus — Long-Running Agents Harness|Bonus]]** |
 | Picking the Right Model | Eval-audit + model sweep | Mentioned (out of scope v1) |
 | The Research Desk / Deal Desk | Production multi-agent apps | Mentioned (out of scope v1) |

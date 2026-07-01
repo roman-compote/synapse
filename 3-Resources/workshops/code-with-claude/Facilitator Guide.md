@@ -30,8 +30,8 @@ last_updated: 2026-07-01
 
 ## What to demo live vs. leave as take-home
 
-- **Live (highest payoff on screen):** Lab 1 (the "aha" when the panel comes online), Lab 2's `--eval` (~30s feedback is great live), Lab 3's before/after eval numbers.
-- **Take-home (setup-heavy):** Lab 4 (Docker image build ~5 min), the Bonus (needs their own repo).
+- **Live (highest payoff on screen):** Lab 1 (the "aha" when the panel comes online), Lab 2's `--eval` (~30s feedback is great live), Lab 3's before/after eval numbers, **Lab 5's Act 1→2 flip** (the agent forgets, then remembers — instant and visual via `dreaming-walkthrough.sh`).
+- **Take-home (setup-heavy / slow):** Lab 4 (Docker image build ~5 min), Lab 5's Act 3 dream (async; pre-run it or reveal after a break), the Bonus (needs their own repo).
 
 ## Pre-flight (day before)
 
@@ -42,7 +42,8 @@ last_updated: 2026-07-01
 
 ## Known gotchas
 
-- **Beta access:** confirm your key has Managed Agents enabled; Dreaming needs research preview (it's theory-only here anyway).
+- **Beta access:** confirm your key has Managed Agents enabled; **[[Agents That Remember|Lab 5]]'s Dreaming** needs research preview (`ant beta:dreams --help` should work). Acts 1–2 (memory stores) run without it.
+- **Lab 5 timing:** a dream runs async (minutes to tens of minutes). Either kick it off *before* a break and reveal the output after, or pre-run one dream and demo the finished output store live. The `dreaming-walkthrough.sh` script pauses between acts so you can narrate.
 - **Ports:** Lab 1 → 8501, Lab 2 → 8088 & 3007. Kill stragglers before demoing.
 - **Lab 2 on corporate VPN:** VPN DNS can block `*.trycloudflare.com` tunnel URLs — the agent still runs, but the browser cast view won't load. Disconnect VPN for the demo.
 - **Lab 3:** after every edit to `agent.py`, `uv run deploy starter` before evals — the config lives on CMA's servers.

@@ -14,7 +14,7 @@ last_updated: 2026-07-01
 # Code with Claude — Start Here
 
 > [!abstract]
-> A practical workshop on **building agents with Claude**, distilled from Anthropic's *Code with Claude* conference (London, May 2026). Light on theory, heavy on hands-on: a short briefing, four labs you can run yourself, and a bonus on long-running agents — all cross-linked so you can wander or follow the path.
+> A practical workshop on **building agents with Claude**, distilled from Anthropic's *Code with Claude* conference (London, May 2026). Light on theory, heavy on hands-on: a short briefing, five labs you can run yourself, and a bonus on long-running agents — all cross-linked so you can wander or follow the path.
 
 > [!tip] Pin this tab
 > Right-click the tab → **Pin**. It's your home base. New to Obsidian? Everything here is a note; click any `[[link]]` to follow a thread.
@@ -27,6 +27,7 @@ last_updated: 2026-07-01
 - **Tune an agent's config** — model, system prompt, skills, MCP — and feel each lever.
 - **Decompose a bloated agent** into skills + code execution + subagents, and prove it with evals.
 - **Measure every change** with a two-layer grader instead of guessing.
+- **Give an agent memory** — a live memory store, then **Dreaming** to consolidate transcripts into recall.
 - **Recognise the shape** of long-running agents that work unattended and stay trustworthy.
 
 ## The 5-minute tour
@@ -46,6 +47,7 @@ last_updated: 2026-07-01
 | 2 | [[Agent Battle]] | Config levers: prompt · skills · MCP · model | ~45 min |
 | 3 | [[Agent Decomposition]] | tool → skill → subagent (71% → 92%) | ~45 min |
 | 4 | [[Eval-Driven Agent Development]] | Two-layer grading; measure every change | variable |
+| 5 | [[Agents That Remember]] | Memory stores + Dreaming (goldfish → colleague) · *research preview* | ~45 min |
 | ★ | [[Bonus — Long-Running Agents Harness]] | Agents that run for hours, honestly | self-paced |
 
 > A comfortable format is **briefing + Lab 1 live together**, then Labs 2–4 as guided demos with take-home guides. See [[Facilitator Guide]].

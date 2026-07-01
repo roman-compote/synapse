@@ -40,7 +40,7 @@ git clone https://github.com/anthropics/cwc-workshops
 Get a key from the [Anthropic Console](https://console.anthropic.com/settings/keys) and set `ANTHROPIC_API_KEY`.
 
 > [!warning] Beta / preview access
-> Managed Agents is a beta; the four labs need it enabled on your key. **[[Memory and Dreaming|Dreaming]]** (theory only here) is a **research preview** and needs your org opted in. If a deploy prints a `preview unavailable` note, that feature isn't enabled for your key — usually harmless for these labs.
+> Managed Agents is a beta; Labs 1–4 need it enabled on your key. **[[Agents That Remember|Lab 5]]'s Dreaming** step is a **research preview** and needs your org opted in ([request access](https://claude.com/form/claude-managed-agents)) — memory stores (Acts 1–2) work on the standard beta. Confirm with `ant beta:dreams --help`. If a deploy prints a `preview unavailable` note, that feature isn't enabled for your key.
 
 ### Per-lab requirements
 
@@ -50,6 +50,7 @@ Get a key from the [Anthropic Console](https://console.anthropic.com/settings/ke
 | [[Agent Battle\|Lab 2]] | Python 3, Node.js, **Java 21+**, free ports 8088 & 3007; optional Claude Code for `/cwc-setup` |
 | [[Agent Decomposition\|Lab 3]] | Python 3.10+, [`uv`](https://docs.astral.sh/uv/) |
 | [[Eval-Driven Agent Development\|Lab 4]] | Node.js **≥22**, **Docker**, `ant` CLI (`brew install anthropics/tap/ant`), `jq` |
+| [[Agents That Remember\|Lab 5]] | `jq`; preview `ant` CLI (bootstrap downloads it); **Dreaming research-preview access** |
 | [[Bonus — Long-Running Agents Harness\|Bonus]] | Claude Code |
 
 ### Quick verification

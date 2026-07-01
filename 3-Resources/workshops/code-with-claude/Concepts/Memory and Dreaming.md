@@ -22,8 +22,8 @@ last_updated: 2026-07-01
 
 Session isolation is a feature, not a bug — each run starts clean. But a useful colleague remembers what happened last week. This is a *context-window* problem: you can't just keep appending history forever. Memory and Dreaming are the two answers, and they trade off along a live-vs-batch axis.
 
-> [!note] Not a hands-on lab in this workshop
-> This concept comes from Anthropic's *Agents That Remember* station at CWC London. We cover it as **theory** so the [[CWC London — What Anthropic Presented|briefing]] makes sense — Dreaming was one of the headline announcements — but there's no lab here. Note that **Dreaming is a research-preview feature** and needs your org opted in.
+> [!tip] There's a hands-on lab for this now
+> This concept comes from Anthropic's *Agents That Remember* station at CWC London. Read this for the **theory**, then do **[[Agents That Remember|Lab 5]]** to walk it end-to-end (amnesia → memory store → Dreaming), with a paced demo script. Note that **Dreaming is a research-preview feature** and needs your org opted in.
 
 ## How it works
 
@@ -39,10 +39,14 @@ The progression Anthropic demos: tell an agent facts in session A → ask in ses
 
 ## Related Concepts
 
+- [[Agents That Remember]] — **Lab 5**: the hands-on walkthrough of everything below.
 - [[Managed Agents]] — memory and Dreaming are CMA primitives.
 - [[Long-Running Agents]] — a different take on persistence, at the Claude Code layer (agent-maintained `PROGRESS.md` + git).
 
 ## References
 
+- Hands-on: [[Agents That Remember|Lab 5 — Agents That Remember]]
 - Briefing: [[CWC London — What Anthropic Presented]]
-- CWC module: `agents-that-remember` in the [cwc-workshops repo](https://github.com/anthropics/cwc-workshops)
+- [Dreams — Claude Platform docs](https://platform.claude.com/docs/en/managed-agents/dreams)
+- [Memory stores — Claude Platform docs](https://platform.claude.com/docs/en/managed-agents/memory)
+- CWC module: `agents-that-remember` in the [cwc-workshops repo](https://github.com/anthropics/cwc-workshops/tree/main/agents-that-remember)
