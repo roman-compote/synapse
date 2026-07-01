@@ -56,10 +56,12 @@ Navigation hub for **evaluating and improving software architecture with AI assi
 
 ---
 
-## Related MOCs
+## Related
 
-- [[5-Meta/MOCs/Prompting-Techniques-MOC|Prompting Techniques MOC]] — the multi-agent/context-engineering foundations the pipeline builds on
-- [[5-Meta/MOCs/Coding-Assistants-MOC|Coding Assistants MOC]] — the tools you'd run this with
+- [[3-Resources/techniques/context-engineering/context-engineering|Context Engineering]] — the multi-agent/context-isolation foundations the pipeline builds on
+- [[3-Resources/techniques/agents/agents - agentisation|Agents & Agentisation]] — orchestration patterns
+- [[3-Resources/techniques/README|AI/LLM Engineering Techniques]] — the wider techniques hub
+- [[3-Resources/domain-driven-design/README|Domain-Driven Design cluster]]
 
 ---
 
