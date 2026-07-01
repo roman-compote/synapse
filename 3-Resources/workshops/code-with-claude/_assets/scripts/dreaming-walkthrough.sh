@@ -116,13 +116,13 @@ pause
 
 note "Session A — tell the agent what we attended"
 SES_A=$(new_session "Write test (no memory)")
-run "ask \$SES_A  «$FACT»"
+run "ask \$SES_A  \"${FACT}\""
 ask "$SES_A" "$FACT"
 pause
 
 note "Session B — a brand-new session asks about it"
 SES_B=$(new_session "Recall test (no memory)")
-run "ask \$SES_B  «$ASK»"
+run "ask \$SES_B  \"${ASK}\""
 ask "$SES_B" "$ASK"
 say "☝️  No idea. Sessions are silos — nothing persists. This is the 'goldfish' baseline."
 pause
