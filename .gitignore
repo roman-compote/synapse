@@ -62,3 +62,6 @@ Thumbs.db
 .obsidian/hotkeys.json
 .obsidian/appearance.json
 
+
+# Obsidian graph view state (ephemeral, user-specific)
+.obsidian/graph.json
